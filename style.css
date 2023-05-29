@@ -17,6 +17,10 @@ section{
     color: rgb(177, 177, 177);
 }
 
+.hide-navbar {
+    display: none; /* Mengatur navbar agar tidak terlihat */
+  }
+
 .home{
     padding-left: 2%;
     padding-right: 2%;

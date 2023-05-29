@@ -8,7 +8,7 @@ function handleScroll() {
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
   // If the scroll position is greater than or equal to 300 pixels, show the navbar; otherwise, hide it
-  if (scrollPosition >= 500) {
+  if (scrollPosition >= 500 && scrollPosition <= 1850) {
     navbar.classList.add('show');
   } else {
     navbar.classList.remove('show');
@@ -16,6 +16,7 @@ function handleScroll() {
 }
 // Attach the scroll event listener
 window.addEventListener('scroll', handleScroll);
+
 
 $(document).ready(function() {
     // Menandai tautan yang sedang aktif saat halaman dimuat
