@@ -1,0 +1,228 @@
+@font-face {
+    font-family: bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+section{
+    min-height: 100vh;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(177, 177, 177);
+}
+
+.home{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: url(image/Cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-content {
+    padding-top: 1vh;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content h3{
+    font-family: bebas;
+    font-weight: 1000;
+    color: #ffffff;
+}
+
+.home-content h3:hover{
+    color: #9a9a9a;
+}
+
+.home-contunt h3{
+    font-family: bebas;
+    font-weight: 1000;
+    color: #ffffff;
+}
+
+.home-contunt h3:hover{
+    color: #9a9a9a;
+}
+
+.home-contunt {
+    padding-top: 80.6vh;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h2 {
+	color: #fff;
+	font-size: 33px;
+	position: absolute;
+    font-family: bebas;
+	transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 0.5px #ffffff;
+}
+
+.content h2:nth-child(2) {
+	color: #ffffff;
+	animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+.welkom {
+    display: flex;
+}
+
+.aboutme{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: url(image/cuvir.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme h1{
+    padding-top: 50px;
+    font-family: bebas;
+    align-items: center;
+}
+.saya{
+    display: flex;
+}
+.deskripsi{
+    padding-right: 9px;
+    font-family: inter;
+    width:380vh;
+    font-size: 1.1rem;
+}
+
+.penjelasan {
+    padding-left: 9px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    width:380vh
+}
+
+
+
+.waving-effect {
+  animation: waving 2s infinite;
+}
+
+@keyframes waving {
+  0% { transform: rotate(0); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(0); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0); }
+}
+
+.vl {
+    border-left: 6px solid rgb(18, 23, 18);
+    height: 280px;
+    display: block;
+}
+
+.vlh {
+    border-left: 6px solid rgb(255, 255, 255);
+    height: 450px;
+    display: block;
+}
+
+.expirience{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: url(image/sa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projekan{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: url(image/kufra.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projekan h1{
+    padding-top: 50px;
+    font-family: bebas;
+    align-items: center;
+}
+  
+@media (max-width: 800px) {
+    .aboutme{
+        padding-top: 30px;
+    }
+    .saya{
+        display: block;
+    }
+    .deskripsi{
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+    .penjelasan{
+        font-size: 12px;
+        width: auto;
+    }
+    .penjelasan h3{
+        text-align: center;
+    }
+    .vl {
+        display: none;
+      }
+      .vlh {
+        display: none;
+      }
+}
