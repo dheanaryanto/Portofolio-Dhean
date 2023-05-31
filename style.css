@@ -235,8 +235,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 30px;
 }
 
