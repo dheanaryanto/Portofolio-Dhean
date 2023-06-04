@@ -191,6 +191,9 @@ section{
 .gambir img{
     height: 35px; width: auto;
 }
+.gambur img{
+    height: 35px; width: auto;
+}
 
 .welkom img{
     width: 60px; 
@@ -274,6 +277,13 @@ section{
     }
     .gambir img{
         height: 35px; width: auto;
+    }
+    .gambur img{
+        height: 30px; width: auto;
+    }
+    .gambur {
+        margin-left: -80px;
+        margin-right: -65px;
     }
     .gambir {
         margin-left: -80px;
