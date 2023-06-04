@@ -8,7 +8,7 @@ function handleScroll() {
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
   // If the scroll position is greater than or equal to 300 pixels, show the navbar; otherwise, hide it
-  if (scrollPosition >= 500 && scrollPosition <= 1850) {
+  if (scrollPosition >= 150 && scrollPosition <= 2000) {
     navbar.classList.add('show');
   } else {
     navbar.classList.remove('show');
