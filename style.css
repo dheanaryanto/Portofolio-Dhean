@@ -233,6 +233,29 @@ section{
 	animation: animate 2s ease-in-out infinite;
 }
   
+.social-media a{
+    display: inline-flex;
+    justify-content: center ;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: .2rem solid black;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: black;
+    margin: 3rem 1.rem 3rem 0;
+    transition: .5s ease;
+    
+}
+
+.social-media a:hover{
+    background: var(--main-color);
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
 @media (max-width: 1000px) {
     .welkom{
         padding-top: 9px;
@@ -257,6 +280,9 @@ section{
         padding-top: 19px;
     }
     
+    .social-media{
+        padding-bottom: 80px;
+    }
     .content h2 {
         color: #fff;
         font-size: 28px;
@@ -308,6 +334,7 @@ section{
         width: auto;
         padding-left: 3px;
         padding-right: 3px;
+        text-align: center;
     }
     .penjelasan h3{
         text-align: center;
